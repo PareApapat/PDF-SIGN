@@ -9,6 +9,9 @@ mat-toolbar {
 .select-file__container {
   margin-top: 10px;
   margin-bottom: 20px;
+  padding: 10px 0px;
+  font-weight: 800;
+  padding-left: 20px;
 }
 
 .select-file__container p {
@@ -101,3 +104,45 @@ a.button {
 .full-width {
   width: 100%;
 }
+
+.bg {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  height: 95px;
+  width: 270px;
+  margin: 10px;
+}
+
+h1 {
+  color: black;
+  font-weight: 800;
+  font-size: 20px;
+  /* text-align: right; */
+  padding: 10px 10px;
+  pointer-events: none;
+}
+
+.bg1 {
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  height: 200px;
+  width: 270px;
+  margin: 10px;
+}
+
+.button {
+  display: flex; 
+  justify-content: center;
+  padding-top: 12px;
+  
+}
+
+.p2 {
+  padding: 10px 0px;
+  font-weight: 800;
+  color: #7103BD;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+
